@@ -16,7 +16,6 @@ async function start() {
     await worker.start({ onUnhandledRequest: 'bypass' })
   }
   ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-
       <BrowserRouter>
         <App />
       </BrowserRouter>

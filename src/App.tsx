@@ -3,12 +3,14 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
+    <div className='column'>
+      <div className='box center'>
+        Hello React World!
+        <button className="button is-primary center">Hello </button>
+      </div>
+    </div>
 
-    </>
   )
 }
 
