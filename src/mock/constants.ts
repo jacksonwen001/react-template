@@ -1,0 +1,1 @@
+export const ARTIFICIAL_DELAY_MS = 2000

@@ -1,16 +1,13 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import { Router, useRoutes } from 'react-router-dom'
+import { routes } from '@/routes'
 
 function App() {
+  const  routers   = useRoutes(routes)
   return (
-    <div className='column'>
-      <div className='box center'>
-        Hello React World!
-        <button className="button is-primary center">Hello </button>
-      </div>
-    </div>
-
+      <> {routers} </>
   )
 }
 

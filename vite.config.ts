@@ -18,6 +18,7 @@ export default ({mode}) => defineConfig({
     modules: {
       localsConvention: 'camelCaseOnly', // 我们使用驼峰形式
     },
+   
     /** 如果使用 scss, 需要注入变量名 */
     // preprocessorOptions: {
     //   scss: {
